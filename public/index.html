@@ -8,7 +8,7 @@
     <nav id="navigation">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">A propos</a></li>
+          <li><a href="#">À propos</a></li>
           <li><a href="#">Produits</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -60,30 +60,33 @@
 
    <!--2eme bloc -->
    
-<section>
-        <div class="grand-texte">Une nouvelle <b>experience TV</b></div>
-            
-        <img src="../images/mandalorian.png">
-                <p>Des chaînes disney à la demande pour le plus grand bonheur de toutes la famille !
-                    <br>
-                Chaque mois des nouveautées à découvrir en exclusivité.
+    <div id="experienceTV">
+        <div class="grand-texte-CANAL">
+            Une nouvelle expérience TV
+        </div>
+            <div id="mandalorian">
+            <img src="../images/mandalorian.png" width="500">
+                <p id="text-mandalorian">Des chaînes disney à la demande pour 
+                    le plus grand bonheur de toutes la famille !
+                    <br><br>
+                    Chaque mois des nouveautées à découvrir en exclusivité.
                 </p>
-
-    <article>
-            <img src="../images/canal.png">
-                <p>
+        </div>
+        <div id="canal">
+            <img src="../images/canal.png" width="500">
+                <p id="text-canal">
                     Ne ratez plus aucun match et les buts de la ligue 1 !
-                    <br>
+                    <br><br>
                 Suivez les matchs de champions   en exclusivité et retrouvez les sur la chaîne replay sur canal + sport.
                 </p>
-    </article>
-</section>
+        </div>
+    </div>
 
-     <!--3eme bloc -->
 
-  <!--1er bloc -->
+     <!--BLOC NETFLIX-->
+
+
   <div id='netflix-box'>
-
     <div class="netflix-text">
         <div class="grand-texte">NETFLIX</div>
             <p>Profitez de la vidéo à la demande !
@@ -110,36 +113,51 @@
 
 
 
-         <!--4eme bloc -->
+         <!--BLOC MULTI TV -->
 
-    <section>
-        <article>
-            <h1>Profitez du Multi-TV.</h1>
-
-            <img src="../images/multi.png">
-                <h2>À chacun son programme !</h2>
-                    <p>Permettez à chaque membre de votre famille de regarder un programme
+    <div id='multitv-box'>
+            <div class="grand-texte-multitv">Profitez du Multi-TV</div>
+                <img src="../images/multi.png" width="800">
+                    <h1>À chacun son programme !</h1>
+                        <p>Permettez à chaque membre de votre famille de regarder un programme
                         différent en équipant les téléviseurs de votre logement d'un boîtier
                         TV Freebox Pop supplémentaire.
-                    </p>
-        </article>
-    </section>
+                        </p>
+            </div>
+    </div>
 </body>
 
 <footer>
-    <h1>Trouver un Free Center</h1>
-    <p>Le meilleur endroit pour découvrir tous les services Freebox, 
-        vous abonner, prendre en main les derniers mobiles ou obtenir 
-        de l’assistance avec nos conseillers ! Rendez-vous en Free Center.
-        <textarea id="extra" name="extra" rows="2" cols="30"></textarea>
-    </p>
+    <div id="contener-footer">
+        <div class="colonne-footer-1">
+            <h1>Trouver un Free Center</h1>
+                <p>
+                Le meilleur endroit pour découvrir tous les services Freebox, 
+                vous abonner, prendre en main les derniers mobiles ou obtenir 
+                de l’assistance avec nos conseillers ! Rendez-vous en Free Center.
+                <br>
+                    <input type="text" name="text" class="search" placeholder="Ville ou code postale">
 
-    <h1>Suivez-nous</h1>
-    <p>Pour vous tenir au courant des toutes dernières actualités, 
-        mises à jour, exclusivité, promos, tout sur Free.</p> 
-        
-    <img src="../images/free.png">
-    
+                </p>
+        </div>
+
+        <div class="colonne-footer-2">
+            <h1>Suivez-nous</h1>
+                <p>
+                    Pour vous tenir au courant des toutes dernières actualités, 
+                    mises à jour, exclusivité, promos, tout sur Free.
+                </p> 
+                    <div id="rs-footer">
+                        <img src="../images/fb.png" style="
+                margin-left:50px" width="70">
+                        <img src="../images/twitter.png" style="
+                margin-left:50px" width="70">
+                        <img src="../images/youtube.png" style="
+                margin-left:50px" width="70">
+                        <img src="../images/instagram.png" style="
+                margin-left:50px" width="70">
+                    </div>
+        </div>  
+    </div>
 </footer>
-
-   </html>
+</html>
