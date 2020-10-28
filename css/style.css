@@ -1,29 +1,62 @@
 body {
     background-color: white;
-    font-family: 'Roboto';
+    font-family: 'Avenir';
     padding-left: 300px;
     padding-right: 300px;
   }
 
+  .grand-texte {
+      font-size: 60px;
+      font-weight: bold;
+      margin:
+  }
 
+#navigation ul {
+    column-count: 4;
+    width: 800px;
+    display: inline-block;
+    list-style:none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#navigation li {
+    margin-left:10px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color:red;
+    font-weight:bold;
+}
+
+#navigation {
+
+}
   /* PREMIER BLOC FREEBOX */
-#freebox {
-    position: relative;
-    padding: 50px;
-    width: 500px;
-}
-
-#freebox-text {
-    position: relative;
-    padding: 50px;
-    width: 500px;
-}
 
 #first-box {
-    font-size: 16px;
-    max-width: 100%;
     text-align: justify;
     background-color: #ECECEC;
+    padding : 100px;
+    display:inline-flex;
+    width: 1100px;
+
+}
+
+.freebox-formulaire {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+}
+
+.freebox-text {
+width: 700px;
+margin-right:100px;
 }
 
 #bouton {
@@ -35,19 +68,23 @@ body {
     width:200px;
     border-radius: 30px;
     text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    display: block;
-    padding:10PX;
+    padding:10px;
 }
+
+
 
 
   /* FORMULAIRE */
   
-.password {
+#email {
     padding: 10px;
+    margin: 20px;
 }
 
+#password {
+    padding: 10px;
+    margin: 20px;
+}
 
 form{
     font-size: 16px;
@@ -55,6 +92,26 @@ form{
     border-radius: 10px;
     text-align:center;
     padding: 30px;
-    width: 400px;
-    box-shadow: black 20px;
+    width: 80%;
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
 }
+
+
+
+
+  /* BLOC NETFLIX */
+
+
+#netflix-box {
+    width: 1100px;
+    text-align: justify;
+    background-color:black;
+    padding : 100px;
+    display:inline-flex;
+}
+
+.netflix-text {
+    width: 500px;
+    margin-right:100px;
+    color:white
+    }

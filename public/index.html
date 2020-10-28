@@ -5,12 +5,12 @@
         Freebox POP
     </title>
 
-    <nav class="navigation">
+    <nav id="navigation">
         <ul>
-          <li>Home</li>
-          <li>A propos</li>
-          <li>Produits</li>
-          <li>Contact</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
 </head>
@@ -18,59 +18,56 @@
 <body> 
     <!--1er bloc -->
 <div id='first-box'>
-    
-    <div class="freebox"></section>
-            <section class="form">
-                <form>
-                    <h1>Formulaire</h1>
-                        <section class="protein">
-                            <label for="email">E-mail</label>
-                                <br>
-                            <input type="text" name="email" id="email">
-                        </section>
-    
-                        <section class="password">
-                            <label for="email">Password</label>
-                                <br>
-                            <input type="password" name="password" id="password">
-                        </section>
-                                <br>
-                            <div id="bouton">Log In</div>
-                        </section>
-                </form>
-            </div>
-
 
     <div class="freebox-text">
-        <h1>Freebox POP</h1>
-            <p1>
+        <div class="grand-texte">Freebox POP</div>
+            <p>
         Marre de ramer en WI-FI dès que vous vous éloignez de votre box
         Freebox Pop, profitez d'une connexion WI-FI rapide et fiable même
-        avec grand nombre  d’appareils connectés (fonction MU-MIMO).
+        avec grand nombre  d’appareils connectés (fonction MU-MIMO).<br><br>
         Pour connecter vos équipements mobiles à votre réseau Wi-Fi, rien de
         plus simple ! Scannez le QR Code qui s'affiche sur le Server Freebox Pop 
-        et vous êtes connecté ! Plus besoin de saisir de code Wi-Fi.
+        et vous êtes connecté ! Plus besoin de saisir de code Wi-Fi.<br><br>
         Et pour plus de sécurité, Freebox Pop intègre le nouveau protocole de
         chiffrement WPA3, pour améliorer la protection de vos connexions.
-            </p1>
+            </p>
                 <div id='bouton'>
                     En savoir plus
                 </div>
     </div>
 
-</div>
+    <div class="freebox"></section>
+        <section class="form">
+            <form>
+                <h1>Formulaire</h1>
+                    <section class="protein">
+                        <label for="email">E-mail</label>
+                            <br>
+                        <input type="text" name="email" id="email">
+                    </section>
+
+                    <section class="password">
+                        <label for="email">Password</label>
+                            <br>
+                        <input type="password" name="password" id="password">
+                    </section>
+                            <br>
+                        <div id="bouton">Log In</div>
+                    </section>
+            </form>
+        </div>
+    </div>
 
    <!--2eme bloc -->
    
 <section>
-    <article>
-        <h1>Une nouvelle <b>experience TV</b></h1>
-            <img src="../images/mandalorian.png">
+        <div class="grand-texte">Une nouvelle <b>experience TV</b></div>
+            
+        <img src="../images/mandalorian.png">
                 <p>Des chaînes disney à la demande pour le plus grand bonheur de toutes la famille !
                     <br>
                 Chaque mois des nouveautées à découvrir en exclusivité.
                 </p>
-    </article>
 
     <article>
             <img src="../images/canal.png">
@@ -82,33 +79,45 @@
     </article>
 </section>
 
-     <!--3eme bloc -->
 
-     <section>
-        <article>
-            <h1>Netflix</h1>
-                    <p>Profitez de la vidéo à la demande !
-                            <br><br>
-                        Venez découvrir notre sélection de films en
-                        qualité HD.
-                            <br><br>
-                        Accéder à des tonnes de contenus sur votre 
-                        TV. Grâce à l'Assistant Google et la fonction 
-                        Chromecast intégrés, diffusez votre contenu 
-                        de votre smartphone sur votre TV en utilisant 
-                        votre voix. 
-                        <button>Recherche</button>
-                    </p>
-                <img src="../images/family.png">
-                <img src="../images/netflix.png">
-        </article>
-    </section>
 
-         <!--4eme bloc -->
+
+   <!--bloc netflix -->
+
+
+  <div id='netflix-box'>
+
+    <div class="netflix-text">
+        <div class="grand-texte">NETFLIX</div>
+            <p>Profitez de la vidéo à la demande !
+                <br><br>
+            Venez découvrir notre sélection de films en
+            qualité HD.
+                <br><br>
+            Accéder à des tonnes de contenus sur votre 
+            TV. Grâce à l'Assistant Google et la fonction 
+            Chromecast intégrés, diffusez votre contenu 
+            de votre smartphone sur votre TV en utilisant 
+            votre voix. 
+            </p>
+                <div id='bouton'>
+                    Rechercher
+                </div>
+        </div>
+
+        <div class="freebox"></section>
+            <img src="../images/family.png" width="500">
+            <br>
+            <img src="../images/netflix.png">
+        </div>
+    </div>
+
+
+         <!--bloc netflix -->
 
     <section>
         <article>
-            <h1>Profitez du Multi-TV.</h1>
+            <div class="grand-texte">Profitez du Multi-TV.</div>
 
             <img src="../images/multi.png">
                 <h2>À chacun son programme !</h2>
